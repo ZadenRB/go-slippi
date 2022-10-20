@@ -4,6 +4,7 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"errors"
+
 	"github.com/haormj/enet-go"
 )
 
@@ -95,7 +96,7 @@ func (c *DolphinConnection) Connect(ip string, port uint16) (<-chan *ConnectionE
 	serverAddress := enet.NewENetAddress()
 	enet.Enet_address_set_host(serverAddress, ip)
 	serverAddress.SetPort(enet.NewEnetUint16(port))
-	client := enet.Enet_host_create(nil, MaxPeers, 3, enet.NewEnetUint32(0), enet.NewEnetUint32(0))
+	client := enet.Enet_host_create(enet.NewENetAddress(), MaxPeers, 3, enet.NewEnetUint32(0), enet.NewEnetUint32(0))
 	if client == nil {
 		return nil, errors.New("failed to create enet client")
 	}
