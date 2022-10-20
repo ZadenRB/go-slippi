@@ -1,0 +1,11 @@
+github.com/blang/semver/v4 v4.0.0 h1:1PFHFE6yCCTv8C1TeyNNarDzntLi7wMI5i/pzqYIsAM=
+github.com/blang/semver/v4 v4.0.0/go.mod h1:IbckMUScFkM3pff0VJDNKRiT6TG/YpiHIM2yvyW5YoQ=
+github.com/haormj/enet-go v0.0.0-20200715111824-53526e06c8ea h1:07G9Ho1GijfosTpRw8RVR2ufogkQvLuFo6V8+LrqhZg=
+github.com/haormj/enet-go v0.0.0-20200715111824-53526e06c8ea/go.mod h1:v3wGiBfa4RqJXm2PCO3ddFWdJfxMJIt+YCENOwxW0KA=
+github.com/jmank88/ubjson v1.3.1 h1:5PJZ7Mi9m5aNseba2nEQ3I8ry4Y95pV/tqS/7SBzzBo=
+github.com/jmank88/ubjson v1.3.1/go.mod h1:ciX98zv7LHiM1tGKLOiXvrm5DI/N3tlV01bMnDvY8sE=
+github.com/pkg/errors v0.8.1 h1:iURUrRGxPUNPdy5/HRSm+Yj6okJ6UtLINN0Q9M4+h3I=
+github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
+golang.org/x/text v0.3.7 h1:olpwvP2KacW1ZWvsR7uQhoyTYvKAupfQrRGBFM352Gk=
+golang.org/x/text v0.3.7/go.mod h1:u+2+/6zg+i71rQMx5EYifcz6MCKuco9NR6JIITiCfzQ=
+golang.org/x/tools v0.0.0-20180917221912-90fa682c2a6e/go.mod h1:n7NCudcB/nEzxVGmLbDWY5pfWTLqBcC2KZ6jyYvM4mQ=
